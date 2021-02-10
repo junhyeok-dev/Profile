@@ -1,0 +1,31 @@
+#content ul {
+  margin-bottom: 20px;
+}
+#content ul li {
+  padding: 5px;
+  list-style-type: none;
+}
+.pubitem {
+  border: #ffffff 1px solid;
+  padding: 20px;
+  overflow: hidden;
+}
+.pubitem h1 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.5em;
+}
+.pubitem h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.2em;
+}
+.pubitem p {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1em;
+}
+.pubitem button {
+  border: none;
+  float: right;
+  padding: 5px;
+  background-color: #487cdb;
+}
+/*# sourceMappingURL=publications.css.map */

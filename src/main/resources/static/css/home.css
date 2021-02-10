@@ -1,0 +1,55 @@
+#content #prjslide #slide0 {
+  display: block;
+}
+#content #prjslide #slide1 {
+  display: none;
+}
+#content #prjslide #slide2 {
+  display: none;
+}
+#content #prjslide #slide3 {
+  display: none;
+}
+#content .horizontal_divs {
+  display: block;
+}
+#content .horizontal_divs #contract {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+#content .horizontal_divs #contract ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+#content .horizontal_divs #contract ul li img {
+  margin: 5px 0;
+}
+#content .horizontal_divs #profile {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+#content .horizontal_divs #profile img {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  height: 150px;
+}
+#content .horizontal_divs #profile ul {
+  display: inline-block;
+}
+#content .horizontal_divs #profile ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+#content .horizontal_divs #profile ul li h3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#content #prjslide {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=home.css.map */
