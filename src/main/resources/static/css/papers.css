@@ -1,0 +1,18 @@
+.paper_item {
+  border-top: 1px solid #6f6f6f;
+  border-bottom: 1px solid #6f6f6f;
+  padding: 10px;
+}
+.paper_item h1 {
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+.paper_item h2 {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+.paper_item p {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+/*# sourceMappingURL=papers.css.map */
