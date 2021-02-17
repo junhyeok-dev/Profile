@@ -27,13 +27,13 @@ public class HomeController {
         } else {
             switch (type) {
                 case "title":
-                    result = paperRepository.findByTitleContaining(keyword);
+                    result = paperRepository.findByTitleContainingIgnoreCase(keyword);
                     break;
                 case "user":
-                    result = paperRepository.findByAuthorContaining(keyword);
+                    result = paperRepository.findByAuthorContainingIgnoreCase(keyword);
                     break;
                 case "content":
-                    result = paperRepository.findByAbsContaining(keyword);
+                    result = paperRepository.findByAbsContainingIgnoreCase(keyword);
                     break;
                 default:
                     result = paperRepository.findAll();
